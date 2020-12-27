@@ -67,7 +67,7 @@
       }
     },
     "mu.cluster.cluster-creator-kit": {
-      "version": "file:/Users/kodamataisei/Work/winter_hack/ClusterCreatorKit-1.11.0",
+      "version": "file:B:/winter-hack/ClusterCreatorKit-1.11.0/ClusterCreatorKit-1.11.0",
       "depth": 0,
       "source": "local",
       "dependencies": {}
