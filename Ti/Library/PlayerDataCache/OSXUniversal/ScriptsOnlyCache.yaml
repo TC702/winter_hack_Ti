@@ -7,18 +7,32 @@ ScriptsOnlyBuild:
     - ClusterVR.CreatorKit.Editor.VenueUploadWindow
     ClusterVR.CreatorKit.Gimmick.Implements.dll:
     - ClusterVR.CreatorKit.Gimmick.Implements.AddInstantForceItemGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.CreateItemGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.DestroyItemGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.SetAnimatorValueGimmick
     ClusterVR.CreatorKit.Item.Implements.dll:
     - ClusterVR.CreatorKit.Item.Implements.GrabbableItem
     - ClusterVR.CreatorKit.Item.Implements.Item
     - ClusterVR.CreatorKit.Item.Implements.MovableItem
+    ClusterVR.CreatorKit.Operation.Implements.dll:
+    - ClusterVR.CreatorKit.Operation.Implements.GlobalLogic
     ClusterVR.CreatorKit.Trigger.Implements.dll:
     - ClusterVR.CreatorKit.Trigger.Implements.InteractItemTrigger
     - ClusterVR.CreatorKit.Trigger.Implements.OnCollideItemTrigger
+    - ClusterVR.CreatorKit.Trigger.Implements.UseItemTrigger
     ClusterVR.CreatorKit.World.Implements.dll:
     - ClusterVR.CreatorKit.World.Implements.DespawnHeights.DespawnHeight
     - ClusterVR.CreatorKit.World.Implements.SpawnPoints.SpawnPoint
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -47,12 +61,20 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 11252}
+    - Class: 114
+      Script: {instanceID: 11362}
     - Class: 114
       Script: {instanceID: 11750}
     - Class: 114
@@ -64,13 +86,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12432}
     - Class: 114
+      Script: {instanceID: 12600}
+    - Class: 114
+      Script: {instanceID: 12620}
+    - Class: 114
       Script: {instanceID: 12780}
     - Class: 114
       Script: {instanceID: 12856}
     - Class: 114
       Script: {instanceID: 12978}
     - Class: 114
+      Script: {instanceID: 13184}
+    - Class: 114
       Script: {instanceID: 13194}
+    - Class: 114
+      Script: {instanceID: 13330}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -84,6 +114,12 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
     className: AddInstantForceItemGimmick
+  - hash:
+      serializedVersion: 2
+      Hash: 587b0c897d6f69ba7c9c6a07bb08967f
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: DestroyItemGimmick
   - hash:
       serializedVersion: 2
       Hash: 8d446a7ef97628b169c49a77bb6e87df
@@ -116,6 +152,18 @@ ScriptsOnlyBuild:
     className: InteractItemTrigger
   - hash:
       serializedVersion: 2
+      Hash: 06a246e0115d0dbb4c2ae8ce93648f93
+    assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Trigger.Implements
+    className: UseItemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 7f9b1c72f677328560684ad8956dd0ac
+    assemblyName: ClusterVR.CreatorKit.Operation.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Operation.Implements
+    className: GlobalLogic
+  - hash:
+      serializedVersion: 2
       Hash: 5a7898259f87aadf406644eb5c3ef9fb
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.SpawnPoints
@@ -134,10 +182,22 @@ ScriptsOnlyBuild:
     className: AtackColider
   - hash:
       serializedVersion: 2
+      Hash: 603f39814510fdc6974942045808e86b
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: CreateItemGimmick
+  - hash:
+      serializedVersion: 2
       Hash: 9a828685920fcae854db14cde3d91490
     assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Trigger.Implements
     className: OnCollideItemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: fcbd4bd0ac5f41d5b4cf29c1a66435f2
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: SetAnimatorValueGimmick
   platform: 2
   scenePathNames:
   - Assets/venue_5a19a4fedfe869e2c29a6dbd49.unity
