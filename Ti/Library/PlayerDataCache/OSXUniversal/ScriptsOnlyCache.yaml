@@ -2,11 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Game2
-    - Game3
-    - ScoreManager
     ClusterVR.CreatorKit.Editor.dll:
     - ClusterVR.CreatorKit.Editor.VenueUploadWindow
     ClusterVR.CreatorKit.Gimmick.Implements.dll:
+    - ClusterVR.CreatorKit.Gimmick.Implements.SetTextGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.WarpPlayerGimmick
     ClusterVR.CreatorKit.Item.Implements.dll:
     - ClusterVR.CreatorKit.Item.Implements.Item
@@ -59,36 +58,36 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 11250}
     - Class: 114
-      Script: {instanceID: 11506}
+      Script: {instanceID: 11504}
     - Class: 114
-      Script: {instanceID: 11782}
+      Script: {instanceID: 11776}
     - Class: 114
-      Script: {instanceID: 11790}
+      Script: {instanceID: 11784}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12302}
     - Class: 114
-      Script: {instanceID: 12834}
+      Script: {instanceID: 12358}
     - Class: 114
-      Script: {instanceID: 12910}
+      Script: {instanceID: 12806}
     - Class: 114
-      Script: {instanceID: 13170}
+      Script: {instanceID: 12882}
     - Class: 114
-      Script: {instanceID: 13194}
+      Script: {instanceID: 13138}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13152}
     - Class: 114
-      Script: {instanceID: 32184}
+      Script: {instanceID: 13164}
     - Class: 114
-      Script: {instanceID: 32258}
-    - Class: 114
-      Script: {instanceID: 47856}
+      Script: {instanceID: 13222}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -133,6 +132,12 @@ ScriptsOnlyBuild:
     className: Item
   - hash:
       serializedVersion: 2
+      Hash: 2727a671d76bf67ac7c72d59a7b316c9
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: SetTextGimmick
+  - hash:
+      serializedVersion: 2
       Hash: 5a7898259f87aadf406644eb5c3ef9fb
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.SpawnPoints
@@ -151,6 +156,12 @@ ScriptsOnlyBuild:
     className: PlayerLocalUI
   - hash:
       serializedVersion: 2
+      Hash: e984bb8d5accbd8c952496f16617b303
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Game2
+  - hash:
+      serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -161,24 +172,6 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Trigger.Implements
     className: OnCollideItemTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: e984bb8d5accbd8c952496f16617b303
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Game2
-  - hash:
-      serializedVersion: 2
-      Hash: f8dc1e05127b3de6f2c532853a57e430
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Game3
-  - hash:
-      serializedVersion: 2
-      Hash: 16c62ae8e815f3dbfcd4861c35173820
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScoreManager
   platform: 2
   scenePathNames:
   - Assets/venue_bde88af6ffa2ea97eed0297364.unity
